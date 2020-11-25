@@ -1,0 +1,21 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 20%;
+    border: 1px solid;
+    position: absolute;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+    background-color: beige;
+    padding-bottom: 10px;
+}
+.btn_1 {
+    margin-bottom: 10px;
+}

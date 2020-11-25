@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMAGE PICKER</title>
+	<script type="text/javascript">
+	function gantigambar() {
+		let gambar = document.getElementById("list").value;
+		document.getElementById("gambar").src = gambar;
+		alert("Apakah yakin ini pilihan anda?");
+	}
+</script>
+</head>
+<body style="margin: 150px" background="https://mastermindescapegames.com/wp-content/uploads/2016/06/super-hero-background-300x101.jpg">
+	<center><h1 style="background-color: white">PILIH SUPER HERO ANDA</h1></center>
+	<center>
+		<fieldset style="background-color: black">
+		<select onchange="gantigambar();" id="list">
+			<option>Pilih Hero Anda</option>
+			<option value="https://awsimages.detik.net.id/community/media/visual/2018/09/17/5676a4fb-f601-49b6-abba-c8fd86141aff_169.jpeg?w=700&q=90">Superman</option>
+			<option value="https://image-cdn.medkomtek.com/rQFz4c25UmEIX4mdbvl-sY7ENrg=/1200x675/smart/klikdokter-media-buckets/medias/2305198/original/061163200_1556012883-Bangun-Tubuh-Kekar-ala-Thor-dalam-AvengersEndgame-By-hdqwalls-com.jpg">Thor</option>
+			<option value="https://www.koalahero.com/wp-content/uploads/2019/04/10_Fakta_Mencengangkan_Tentang_Batman.png">Batman</option>
+			<option value="https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/09/marvel-spider-man-miles-morales-iz-1920x1080-1-920x518.jpg">Spiderman</option>
+			<option value="https://i.cdn.newsbytesapp.com/images/l205_7941596107002.jpg">Wonder Woman</option>
+		</select>
+	</fieldset>
+	</center>
+	<br>
+	<center><img src="" style="width: 350px;" id="gambar"></center>
+</body>
+</html>
